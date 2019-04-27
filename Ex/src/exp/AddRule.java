@@ -230,7 +230,7 @@ public class AddRule extends JFrame {
                     Connection con = null;
                     Statement sql = null;
                     ResultSet rs;
-                    String uri = "jdbc:mysql://140.143.38.227/caugreenhouse_c?user=yx&password=cau2018&characterEncoding=gb2312";
+                    String uri = "jdbc:mysql://127.0.0.1/ex?user=yx&password=cau2018&characterEncoding=gb2312";
                     try {
                         Class.forName("com.mysql.jdbc.Driver");
                     } catch (Exception ee) {
